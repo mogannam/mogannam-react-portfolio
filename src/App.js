@@ -6,13 +6,14 @@ import ContactForm from './components/Contact';
 
 function App() {
 
-  const [selectedSection, setSelectedSection] = useState({name:"About", description : "A little about me.", component: <About/>});
+  const [selectedSection, setSelectedSection] = useState({name:"about", description : "A little about me.", component: <About/>});
   // equivelent to sections["About"] but you can't use it because sections is declared below
   let [sections] = useState({
-    "About" : {name:"About", description : "A little about me.", component: <About/>},
-    "Contact":{name: "Contact", description: "How to be reached", component: <ContactForm/>},
-    "Projects":{name: "Projects", description: "Projects I completed", component: <Gallery selectedSection={selectedSection}/>},
-    "Hobbies": {name: "Hobbies", description: "Fun on my free time", component: <Gallery selectedSection={selectedSection}/>}
+    "about" : {name:"about", description : "A little about me.", component: <About/>},
+    "contact":{name: "contact", description: "How to be reached", component: <ContactForm/>},
+    "projects":{name: "projects", description: "Projects I completed", component: <Gallery selectedSection={selectedSection}/>},
+    "hobbies": {name: "hobbies", description: "Fun on my free time", component: <Gallery selectedSection={selectedSection}/>},
+    "resume": {name: "resume", description: "Skills", component: <Gallery selectedSection={selectedSection}/>}
 
   })
   
@@ -30,9 +31,9 @@ function App() {
         {
           ( () => { // Beg Self Invoking Function
             switch(selectedSection.name) {
-              case 'About':
+              case 'about':
                 return <About/>
-              case 'Contact':
+              case 'contact':
                 return <ContactForm/>
               default:
                 sections[selectedSection.name].component = <Gallery selectedSection={selectedSection}/>
