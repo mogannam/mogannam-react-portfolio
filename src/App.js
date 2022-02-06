@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
+import Resume from './components/Resume'
 import ContactForm from './components/Contact';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     "contact":{name: "contact", description: "How to be reached", component: <ContactForm/>},
     "projects":{name: "projects", description: "Projects I completed", component: <Gallery selectedSection={selectedSection}/>},
     "hobbies": {name: "hobbies", description: "Fun on my free time", component: <Gallery selectedSection={selectedSection}/>},
-    "resume": {name: "resume", description: "Skills", component: <Gallery selectedSection={selectedSection}/>}
+    "resume": {name: "resume", description: "Skills", component: <Resume/>}
 
   })
   
@@ -35,6 +36,8 @@ function App() {
                 return <About/>
               case 'contact':
                 return <ContactForm/>
+              case 'resume':
+                return <Resume/>
               default:
                 sections[selectedSection.name].component = <Gallery selectedSection={selectedSection}/>
                 return   sections[selectedSection.name].component 

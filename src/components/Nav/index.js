@@ -16,7 +16,7 @@ function Nav(props) {
     <header className="flex-row px-1">
       <h2>
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+          <span role="img" aria-label="my-name"> 📸</span> Joseph Mogannam
         </a>
       </h2>
       <nav>
@@ -27,7 +27,7 @@ function Nav(props) {
               return Object.entries(sections)
               .map( ([key, section]) => 
                   <li key={key} 
-                    className={`mx-1 ${selectedSection.name === section.name && 'navActive' }`}> 
+                    className={`nav-links mx-1 ${selectedSection.name === section.name && 'navActive' }`}> 
                     <span onClick={() => {setSelectedSection(section);}}>
                       {capitalizeFirstLetter(section.name)}
                     </span>

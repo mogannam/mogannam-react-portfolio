@@ -10,6 +10,8 @@ main {
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
+  --background: #0096c7;
+  --nav: #caf0f8;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -32,7 +34,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--dark);
+  background: var(--background);
   color: var(--light);
   font-family: 'Poiret One', cursive;
 }
@@ -89,11 +91,12 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: var(--nav);
 }
 
+
 header a {
-  color: var(--light);
+  color: var(--dark);
 }
 
 button {
@@ -286,6 +289,7 @@ a {
   margin-right: -2px;
 }
 
+.nav-links {color: black;}
 .navActive {
   color: var(--secondary);
 }
