@@ -12,6 +12,7 @@ main {
   --darker: #111111;
   --background: #0096c7;
   --nav: #caf0f8;
+  --nav-links: black;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -289,7 +290,9 @@ a {
   margin-right: -2px;
 }
 
-.nav-links {color: black;}
+.nav-links {
+  color: var(--nav-links); 
+}
 .navActive {
   color: var(--secondary);
 }

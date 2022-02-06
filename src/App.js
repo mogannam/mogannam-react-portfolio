@@ -11,11 +11,11 @@ function App() {
   // equivelent to sections["About"] but you can't use it because sections is declared below
   let [sections] = useState({
     "about" : {name:"about", description : "A little about me.", component: <About/>},
-    "contact":{name: "contact", description: "How to be reached", component: <ContactForm/>},
     "projects":{name: "projects", description: "Projects I completed", component: <Gallery selectedSection={selectedSection}/>},
+    "resume": {name: "resume", description: "Skills", component: <Resume/>},
+    "contact":{name: "contact", description: "How to be reached", component: <ContactForm/>},
     "hobbies": {name: "hobbies", description: "Fun on my free time", component: <Gallery selectedSection={selectedSection}/>},
-    "resume": {name: "resume", description: "Skills", component: <Resume/>}
-
+    
   })
   
  
