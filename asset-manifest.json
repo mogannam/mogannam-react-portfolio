@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mogannam-react-portfolio/static/css/main.f1adca8b.chunk.css",
-    "main.js": "/mogannam-react-portfolio/static/js/main.6da45c5d.chunk.js",
-    "main.js.map": "/mogannam-react-portfolio/static/js/main.6da45c5d.chunk.js.map",
+    "main.js": "/mogannam-react-portfolio/static/js/main.1ae82734.chunk.js",
+    "main.js.map": "/mogannam-react-portfolio/static/js/main.1ae82734.chunk.js.map",
     "runtime-main.js": "/mogannam-react-portfolio/static/js/runtime-main.54928b8f.js",
     "runtime-main.js.map": "/mogannam-react-portfolio/static/js/runtime-main.54928b8f.js.map",
     "static/js/2.33d6446b.chunk.js": "/mogannam-react-portfolio/static/js/2.33d6446b.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.54928b8f.js",
     "static/js/2.33d6446b.chunk.js",
     "static/css/main.f1adca8b.chunk.css",
-    "static/js/main.6da45c5d.chunk.js"
+    "static/js/main.1ae82734.chunk.js"
   ]
 }
