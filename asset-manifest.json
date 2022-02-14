@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/mogannam/static/css/main.f1adca8b.chunk.css",
+    "main.js": "/mogannam/static/js/main.6da45c5d.chunk.js",
+    "main.js.map": "/mogannam/static/js/main.6da45c5d.chunk.js.map",
+    "runtime-main.js": "/mogannam/static/js/runtime-main.32703074.js",
+    "runtime-main.js.map": "/mogannam/static/js/runtime-main.32703074.js.map",
+    "static/js/2.33d6446b.chunk.js": "/mogannam/static/js/2.33d6446b.chunk.js",
+    "static/js/2.33d6446b.chunk.js.map": "/mogannam/static/js/2.33d6446b.chunk.js.map",
+    "static/js/3.dfc14060.chunk.js": "/mogannam/static/js/3.dfc14060.chunk.js",
+    "static/js/3.dfc14060.chunk.js.map": "/mogannam/static/js/3.dfc14060.chunk.js.map",
+    "index.html": "/mogannam/index.html",
+    "static/css/main.f1adca8b.chunk.css.map": "/mogannam/static/css/main.f1adca8b.chunk.css.map",
+    "static/js/2.33d6446b.chunk.js.LICENSE.txt": "/mogannam/static/js/2.33d6446b.chunk.js.LICENSE.txt",
+    "static/media/0.gif": "/mogannam/static/media/0.7a63dbfa.gif",
+    "static/media/1.gif": "/mogannam/static/media/1.05844893.gif",
+    "static/media/2.gif": "/mogannam/static/media/2.d6941bd3.gif",
+    "static/media/3.mp4": "/mogannam/static/media/3.e0fd953f.mp4",
+    "static/media/4.gif": "/mogannam/static/media/4.1288d96a.gif",
+    "static/media/5.gif": "/mogannam/static/media/5.d01f12b8.gif",
+    "static/media/cover-image.66ae8ada.svg": "/mogannam/static/media/cover-image.66ae8ada.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32703074.js",
+    "static/js/2.33d6446b.chunk.js",
+    "static/css/main.f1adca8b.chunk.css",
+    "static/js/main.6da45c5d.chunk.js"
+  ]
+}
