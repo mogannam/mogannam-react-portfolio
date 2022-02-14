@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Img = ({ image, src, alt, className, key, i }) => {
+const Img = ({ image, src, alt, className, parentKey, i }) => {
  
   return (
     
@@ -8,7 +8,7 @@ const Img = ({ image, src, alt, className, key, i }) => {
         src={src}
         alt={alt}
         className={className}
-        key={key}
+        
 
     />
     

@@ -1,19 +1,22 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Vid = ({ image, src, videoSrc, alt, className, key, i, width, height }) => {
+
+const Vid = ({ image, src, alt, className, videoSrc, i, width, height }) => {
  
   return (
 
     <video
       alt={alt}
       className={className}
-      key={key} 
       width={width} 
-      height={height} controls>
-    <source src={image.videoSrc} type="video/mp4"/>
-    Your browser does not support the video tag.
+      height={height}
+      src={src}
+       controls>
+  
     </video>
   );
 };
 
 export default Vid;
+
+//image.videoSrc

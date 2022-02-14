@@ -1,5 +1,5 @@
 import React from 'react';
-import coverImage from '../../assets/cover/cover-image.svg';
+
 
 const skills = {
     'Front-end Proficiencies' : ['HTML', 'CSS', 'JavaScript', 'JQuery', 'responsive design', 'React', 'BootStrap', 'handlebars'],
@@ -11,12 +11,13 @@ const skills = {
 function Resume() {
   return (
     <section className="my-5">
+        <a href="JoeMogannamResume.pdf" download>Download Resume</a>
         {
             ( () => { // BEG Self Invoking function
               
               return Object.entries(skills)
               .map( ([key, section]) => 
-                    <ul><h2>{key} </h2>
+                    <ul key={key+'1'}><h2>{key} </h2>
                     {section.map( value => 
                         <li key={value} className={`nav-links mx-1`}> 
                         {value}

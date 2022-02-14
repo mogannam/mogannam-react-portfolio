@@ -35,7 +35,23 @@ const PhotoList = ({ category }) => {
       name: 'Social Mongoose Network',
       type:'vid',
       src: 'https://github.com/mogannam/social-mongoose-network',
-      videoSrc: 'https://github.com/mogannam/mockups/blob/1a4cc6a72bc64945130832ce3fcbb4f385c0a4f5/social-mongoose-network.mp4',
+      videoSrc : '../../assets/small/projects/social-mongoose-network.mp4',
+      category: 'projects',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+    },
+    {
+      name: 'Express Note Keeper',
+      type:'img',
+      src: 'https://github.com/mogannam/express-note-keeper',
+      category: 'projects',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+    },
+    {
+      name: 'Time Keeper',
+      type:'img',
+      src: 'https://github.com/mogannam/time-keeper/blob/main/README.md',
       category: 'projects',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
@@ -55,36 +71,35 @@ const PhotoList = ({ category }) => {
       <div className="flex-row">
         {currentPhotos.map((image, i) => (
        
-          <a href={`${image.src}`}>
+          <div key={image.name}>
           {
             ( () => { 
               switch(image.type){
                 case 'img':
-                 return <Img
+                 return <a  href={`${image.src}`}><Img
                     image={image}
                     src={require(`../../assets/small/${category}/${i}.gif`).default}
                     alt={image.name}
                     className="img-thumbnail mx-1"
-                    key={image.name}
+                    
                     i={i}
-                  />
+                  /></a>
                 case 'vid':
-                  return <Vid
-                    image={image}
-                    src={image.src}
-                    videoSrc={image.videoSrc}
-                    alt={image.name}
-                    className="img-thumbnail mx-1"
-                    key={image.name}
-                    i={i}
-                  />
+                  return <span> <Vid
+                  image={image}
+                  src={require(`../../assets/small/${category}/${i}.mp4`).default}
+                  alt={image.name}
+                  className="img-thumbnail mx-1"
+                  
+                  i={i}
+                /><a href={image.src}> {image.name} Project</a></span>
                 default:
                   return <div></div>
               }
               
             })()
           }
-          </a>
+          </div>
           
         ))}
       </div>
@@ -94,3 +109,6 @@ const PhotoList = ({ category }) => {
 };
 
 export default PhotoList;
+
+
+

@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
 import Resume from './components/Resume'
+import Footer from './components/Footer'
 import ContactForm from './components/Contact';
 
 function App() {
@@ -47,8 +48,10 @@ function App() {
           })() // END Self Invoking Function
         
         }
-
+      <Footer/>
       </main>
+      
+
     </div>
   );
 }
