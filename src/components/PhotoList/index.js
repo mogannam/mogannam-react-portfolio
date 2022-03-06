@@ -56,6 +56,14 @@ const PhotoList = ({ category }) => {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
+    {
+      name: 'Property Mgmt Help Desk',
+      type:'img',
+      src: 'https://github.com/mogannam/the-help-desk/',
+      category: 'projects',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+    },
 
   ]);
 
