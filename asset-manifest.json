@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mogannam-react-portfolio/static/css/main.f1adca8b.chunk.css",
-    "main.js": "/mogannam-react-portfolio/static/js/main.1ae82734.chunk.js",
-    "main.js.map": "/mogannam-react-portfolio/static/js/main.1ae82734.chunk.js.map",
-    "runtime-main.js": "/mogannam-react-portfolio/static/js/runtime-main.54928b8f.js",
-    "runtime-main.js.map": "/mogannam-react-portfolio/static/js/runtime-main.54928b8f.js.map",
+    "main.js": "/mogannam-react-portfolio/static/js/main.66ec19fd.chunk.js",
+    "main.js.map": "/mogannam-react-portfolio/static/js/main.66ec19fd.chunk.js.map",
+    "runtime-main.js": "/mogannam-react-portfolio/static/js/runtime-main.dd86c91a.js",
+    "runtime-main.js.map": "/mogannam-react-portfolio/static/js/runtime-main.dd86c91a.js.map",
     "static/js/2.33d6446b.chunk.js": "/mogannam-react-portfolio/static/js/2.33d6446b.chunk.js",
     "static/js/2.33d6446b.chunk.js.map": "/mogannam-react-portfolio/static/js/2.33d6446b.chunk.js.map",
-    "static/js/3.dfc14060.chunk.js": "/mogannam-react-portfolio/static/js/3.dfc14060.chunk.js",
-    "static/js/3.dfc14060.chunk.js.map": "/mogannam-react-portfolio/static/js/3.dfc14060.chunk.js.map",
+    "static/js/3.e7ac7993.chunk.js": "/mogannam-react-portfolio/static/js/3.e7ac7993.chunk.js",
+    "static/js/3.e7ac7993.chunk.js.map": "/mogannam-react-portfolio/static/js/3.e7ac7993.chunk.js.map",
     "index.html": "/mogannam-react-portfolio/index.html",
     "static/css/main.f1adca8b.chunk.css.map": "/mogannam-react-portfolio/static/css/main.f1adca8b.chunk.css.map",
     "static/js/2.33d6446b.chunk.js.LICENSE.txt": "/mogannam-react-portfolio/static/js/2.33d6446b.chunk.js.LICENSE.txt",
@@ -18,12 +18,13 @@
     "static/media/3.mp4": "/mogannam-react-portfolio/static/media/3.e0fd953f.mp4",
     "static/media/4.gif": "/mogannam-react-portfolio/static/media/4.1288d96a.gif",
     "static/media/5.gif": "/mogannam-react-portfolio/static/media/5.d01f12b8.gif",
+    "static/media/6.gif": "/mogannam-react-portfolio/static/media/6.f2f072d7.gif",
     "static/media/cover-image.66ae8ada.svg": "/mogannam-react-portfolio/static/media/cover-image.66ae8ada.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.54928b8f.js",
+    "static/js/runtime-main.dd86c91a.js",
     "static/js/2.33d6446b.chunk.js",
     "static/css/main.f1adca8b.chunk.css",
-    "static/js/main.1ae82734.chunk.js"
+    "static/js/main.66ec19fd.chunk.js"
   ]
 }
